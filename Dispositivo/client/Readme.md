@@ -12,10 +12,13 @@ Aqui está o código desenvolvido em C++ utilizando a Arduino IDE para programar
 * Um modulo NodeMCU ESP8266
 * Dois Push Buttons (Chave Táctil)
 * Dois resistor de 10k Ohm
-* Cinco Jumpers
 * Um protoboard
 
 # Esquema de ligação dos componentes
+
+Abaixo nós temos uma imagem que representa a ligação do circuito usada no dispositivo.
+
+![texto](/Dispositivo/images/circuito.png)
 
 # Funcionamento
 
