@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paciente DApp</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="index.js"></script>
+  </head>
+  <body>
+    <div id="alert-container">
+      <!-- alert card will be dynamically added here -->
+    </div>
+    <div class="gridContainer">
+      <div class="titulo">
+        <h1 id="titulo">
+          Bem-vindo a DApp do Paciente
+        </h1>
+      </div>
+      
+      <div class="listarPendentes" id="obterRegistrosPendentes">
+        <h3>Listar Registros Pendentes</h3>
+        <button type="button" id="listarPendentesButton">Listar</button>
+      </div>
+      <div class="listarAprovados" id="obterRegistrosAprovados">
+        <h3>Listar Registros Aprovados</h3>
+        <button type="button" id="listarAprovadosButton">Listar</button>
+      </div>
+      <div class="Pendentes" id="pendentes">
+        <div>
+          <h3>Selecione o endereço da API</h3>
+          <select id="pendentesSelect">
+            <option value="reset">Selecione um Registro</option>
+          </select>
+        </div>
+        <div id="aprovarRegistro">
+          <h3>Aprovar Registros Pendentes</h3>
+          <button type="button" id="aprovarPendentesButton">Aprovar</button>
+        </div>
+        <div id="reprovarAprovacao">
+          <h3>Reprovar Aprovação de Registros Pendentes</h3>
+          <button type="button" id="reprovarPendentesButton">Reprovar</button>
+        </div>
+      </div>
+      <div class="Aprovados" id="aprovados">
+        <div>
+          <h3>Selecione o endereço da API</h3>
+          <select id="aprovadosSelect">
+            <option value="reset">Selecione um Registro</option>
+          </select>
+        </div>
+        <div id="revogarAprovacao">
+          <h3>Revogar Aprovação de Registros Aprovados</h3>
+          <button type="button" id="revogarAprovadosButton">Revogar</button>
+        </div>
+        <div id="removerRegistrosExpirados">
+          <h3>Remover Registros com Validade Expirados</h3>
+          <button type="button" id="removerExpiradosButton">Remover</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

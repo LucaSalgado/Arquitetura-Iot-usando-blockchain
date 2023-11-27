@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Médico DApp</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="index.js"></script>
+  </head>
+  <body>
+    <div id="alert-container">
+      <!-- alert card will be dynamically added here -->
+    </div>
+    <div class="gridContainer">
+      <div class="titulo">
+        <h1 id="titulo">
+          Bem-vindo a DApp do Médico
+        </h1>
+      </div>
+      
+      <div class="listar" id="obterRegistrosPendentes">
+        <h3>Listar Registros Pendentes</h3>
+        <button type="button" id="listarPendentesButton">Listar</button>
+        <select id="pendentesSelect">
+          <option value="reset" aria-readonly="true">Veja os Registros</option>
+        </select>
+        <h3>Listar Registros Aprovados</h3>
+        <button type="button" id="listarAprovadosButton">Listar</button>
+        <select id="aprovadosSelect">
+          <option value="reset" aria-readonly="true">Veja os Registros</option>
+        </select>
+      </div>
+      <div class="criarRegistro">
+        <div class="criarRegistroContainer">
+          <h3>Registre sua API</h3>
+          <label for="endereco" id="endLabel">Endereço da API:</label>
+          <input type="text" name="endereco" id="endereco" required>
+          <label for="validade" id="valLabel">Duração do acesso (em dias):</label>
+          <input type="number" name="validade" id="validade" required>
+          <button type="button" id="criaRegistroButton">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

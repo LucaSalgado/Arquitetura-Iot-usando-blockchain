@@ -1,0 +1,16 @@
+{
+  "name": "medico-dapp",
+  "version": "1.0.0",
+  "description": "App descentralizado usado pelo médico para cadastrar suas API's.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect": "^3.7.0",
+    "serve-static": "^1.15.0"
+  }
+}
