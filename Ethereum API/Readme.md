@@ -17,6 +17,8 @@ Para que a API funcione, é necessário atualizar as seguintes variáveis do arq
 
 * IKEY: essa variável armazena a chave privada da API do Infura usada para fazer as requisições ao contrato.
 
+* ABI: essa variável armazena a especificação do contrato codificada seguindo o padrão estabelecido pela rede Ethereum.
+
 Execute o seguinte comando no terminal para iniciar a API:
 ```node index.js```
 
